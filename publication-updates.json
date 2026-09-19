@@ -1,13 +1,32 @@
 {
-  "checkedAt": "2026-09-18",
+  "checkedAt": "2026-09-19",
   "records": [
     {
-      "title": "Spin Reorientation Driven Renormalization of Spin–Phonon Coupling in Fe₄GeTe₂",
-      "authors": "R. Pal, M. N. Hasan, D. Das, C. Nayak, M. Deka, N. Salehi, M. Pereiro, S. Mondal, A. Misra, A. Singha, P. Mandal, D. Karmakar, & A. N. Pal",
-      "journal": "ACS Nano 20, 24621 (2026)",
-      "url": "https://doi.org/10.1021/acsnano.5c22274",
+      "title": "Towards a MAgnetic Multiscale MOdelling Suite (MaMMoS)",
+      "authors": "H. Fangohr, S. J. R. Holt, M. Lang, S. Pathak, A. Petrocchi, M. Adams, et al.",
+      "journal": "IEEE Transactions on Magnetics (2026)",
       "year": 2026,
-      "source": "CV"
+      "url": "https://doi.org/10.1109/TMAG.2026.3689962",
+      "type": "journal-article",
+      "source": "Google Scholar"
+    },
+    {
+      "title": "A Community-Developed Domain Ontology for Magnetic Materials",
+      "authors": "W. Hortschitz, S. Pile, C. Fillies, H. Oezelt, A. Kovacs, H. Fangohr, S. J. R. Holt, et al.",
+      "journal": "arXiv:2609.11464 (2026)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.11464",
+      "type": "arxiv-preprint",
+      "source": "Google Scholar"
+    },
+    {
+      "title": "Observation of correlation-driven topological transport and robust ferromagnetism in 2D CrS₂",
+      "authors": "S. M. Obaidulla, M. N. Hasan, D. Das, R. Alam, A. Supina, M. A. Aslam, S. Kamal, et al.",
+      "journal": "arXiv:2607.23625 (2026)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.23625",
+      "type": "arxiv-preprint",
+      "source": "Google Scholar"
     },
     {
       "title": "Deciphering Interfacial Dzyaloshinskii–Moriya Interaction in Transition‑Metal Dichalcogenide/Permalloy Heterostructures by Brillouin Light Scattering and First‑Principles Calculations",
@@ -15,7 +34,9 @@
       "journal": "ACS Nano 19, 23564–23574 (2025)",
       "url": "https://pubs.acs.org/doi/abs/10.1021/acsnano.4c17187",
       "year": 2025,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Dynamical electronic correlations and chiral magnetism in the van der Waals magnet Fe₄GeTe₂",
@@ -23,7 +44,9 @@
       "journal": "Phys. Rev. B 111, 134449 (2025)",
       "url": "https://doi.org/10.1103/PhysRevB.111.134449",
       "year": 2025,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Vacancy‑Enhanced Biotite Nanosheets for Optical Limiters",
@@ -31,7 +54,9 @@
       "journal": "ACS Appl. Nano Mater. 8(16), 8187–8198 (2025)",
       "url": "https://doi.org/10.1021/acsanm.5c00454",
       "year": 2025,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Electrically Controlled Excitons, Charge Transfer Induced Trions, and Narrowband Emitters in MoSe₂–WSe₂ Lateral Heterostructure",
@@ -39,8 +64,10 @@
       "journal": "Nano Letters 24(46), 14615–14624 (2024)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/39526856/",
       "year": 2024,
-      "source": "CV",
-      "doi": "10.1021/acs.nanolett.4c03309"
+      "source": "ORCID",
+      "doi": "10.1021/acs.nanolett.4c03309",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Achieving nearly barrier-free transport in high mobility ReS₂ phototransistors with van der Waals contacts",
@@ -48,7 +75,9 @@
       "journal": "npj 2D Materials and Applications 8(1), 71 (2024)",
       "url": "https://www.nature.com/articles/s41699-024-00507-3",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Structurally Dynamic Monocyte–Liposome Hybrid Vesicles as an Anticancer Drug Delivery Vehicle: A Crucial Correlation of Microscopic Elasticity and Ultrafast Dynamics",
@@ -56,7 +85,9 @@
       "journal": "J. Phys. Chem. Lett. 15(11), (2024)",
       "url": "https://doi.org/10.1021/acs.jpclett.4c00356",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "A Mutagen Acts as a Potent Reducing Agent of Glycated Hemoglobin: a Combined Ultrafast Electron Transfer and Computational Studies",
@@ -64,7 +95,9 @@
       "journal": "ChemBioChem 25(5), e202300721 (2024)",
       "url": "https://doi.org/10.1002/cbic.202300721",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Near‑Infrared Active Tri‑nanohybrid for Enhanced Energy Harvesting",
@@ -72,7 +105,9 @@
       "journal": "ChemistrySelect 9(13), e202400968 (2024)",
       "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/slct.202400968",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Excited‑state Photoacid: A molecular reporter for sensing vesicle to micelle transition",
@@ -80,7 +115,9 @@
       "journal": "Journal of Molecular Liquids 407, 125181 (2024)",
       "url": "https://doi.org/10.1016/j.molliq.2024.125181",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Ultrafast Spectroscopic Studies on the Interaction of Reactive Oxygen Species with a Probe Impregnated in Nanoscopic and Microscopic Matrix Formulation",
@@ -88,7 +125,9 @@
       "journal": "Spectrochimica Acta Part A 308, 123671 (2024)",
       "url": "https://doi.org/10.1016/j.saa.2023.123671",
       "year": 2024,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "A spectroscopy-based proof-of-concept (POC) for developing loading of pathogen analyzer (LOPA) for dairy products",
@@ -97,7 +136,9 @@
       "authors": "Author details on the publication page",
       "url": "https://doi.org/10.1016/j.heliyon.2024.e38735",
       "doi": "10.1016/j.heliyon.2024.e38735",
-      "source": "ORCID"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Magnetism in AV₃Sb₅ (Cs, Rb and K): Origin and Consequences for the Strongly Correlated Phases",
@@ -105,7 +146,9 @@
       "journal": "Phys. Rev. Lett. 131, 196702 (2023)",
       "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.196702",
       "year": 2023,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Magnetism in AV₃Sb₅: Complex Texture of the Dynamical Magnetic Properties",
@@ -113,7 +156,9 @@
       "journal": "Phys. Rev. B 108, 174413 (2023)",
       "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.174413",
       "year": 2023,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Exciton many-body interactions and charge transfer in CsPbBr₃/graphene derivatives",
@@ -121,7 +166,9 @@
       "journal": "Phys. Rev. B 108, 155417 (2023)",
       "url": "https://doi.org/10.1103/PhysRevB.108.155417",
       "year": 2023,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Mimicking Cellular Fusion in A Microfluidic Channel Via Time-Resolved Chemiluminescence",
@@ -129,7 +176,9 @@
       "journal": "J. Photochem. Photobiol. A 441, 114731 (2023)",
       "url": "https://doi.org/10.1016/j.jphotochem.2023.114731",
       "year": 2023,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Unraveling an Ultrafast Electron Transport Mechanism in a Photocatalytic ‘Micromachine’ for their Potential Light Harvesting Applications",
@@ -137,7 +186,9 @@
       "journal": "Micromachines 14, 980 (2023)",
       "url": "https://doi.org/10.3390/mi14050980",
       "year": 2023,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Re-dichalcogenides: Resolving Conflicts of their Structure-property Relationship",
@@ -145,7 +196,9 @@
       "journal": "Advanced Physics Research 1, 2200010 (2022)",
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/apxr.202200010",
       "year": 2022,
-      "source": "CV"
+      "source": "Google Scholar",
+      "type": "journal-article",
+      "sourceUrl": "https://scholar.google.com/citations?user=ZXtrdcAAAAAJ"
     },
     {
       "title": "Functionalized Nano-MOF for NIR Induced Bacterial Remediation: A Combined Spectroscopic and Computational Study",
@@ -153,7 +206,9 @@
       "journal": "Inorg. Chim. Acta 532, 120733 (2022)",
       "url": "https://doi.org/10.1016/j.ica.2022.120733",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Plasmon-Coupled Donor-Acceptor type Organic Sensitizer based Photoanodes for Enhanced Photovoltaic Activity: Key information from Ultrafast Dynamical Study",
@@ -161,7 +216,9 @@
       "journal": "ACS Energy & Fuels 36, 9272–9281 (2022)",
       "url": "https://doi.org/10.1021/acs.energyfuels.2c02924",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Implementation of surface functionalization of MnS nanoparticle for achieving novel optical properties and Improving Therapeutic Potential",
@@ -169,7 +226,9 @@
       "journal": "RSC Adv. 12, 20728–20734 (2022)",
       "url": "https://doi.org/10.1039/d2ra01087a",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Reversible photoswitching of spiropyran in biomolecular interfaces: A combined spectroscopy and computational study",
@@ -177,7 +236,9 @@
       "journal": "J. Photochem. Photobiol. A: Chem. 430, 113958 (2022)",
       "url": "https://doi.org/10.1016/j.jphotochem.2021.113958",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Tetracycline Encapsulated in Au Nanoparticle-decorated ZnO Nanohybrids for Enhanced Antibacterial Activity",
@@ -185,7 +246,9 @@
       "journal": "ACS Appl. Nano Mater. 5, 4484–4492 (2022)",
       "url": "https://doi.org/10.1021/acsanm.2c01145",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "A portable spectroscopic instrument for multiplexed monitoring of acute water toxicity: Design, testing and evaluation",
@@ -193,7 +256,9 @@
       "journal": "Rev. Sci. Instrum. 93, 115105 (2022)",
       "url": "https://doi.org/10.1063/5.0071031",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Decoding the Kinetic Pathways Towards Lipid/DNA Complex of Alkyl-alcohol Cationic lipids formed in a Microfluidic Channel",
@@ -201,7 +266,9 @@
       "journal": "J. Phys. Chem. B 126, 588–600 (2022)",
       "url": "https://doi.org/10.1021/acs.jpcb.1c07263",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Dual-Sensitization via Electron and Energy Harvesting in a Nanohybrid for Improvement of Therapeutic Efficacy",
@@ -209,7 +276,9 @@
       "journal": "ACS Phys. Chem. Au 2, 171–178 (2022)",
       "url": "https://doi.org/10.1021/acsphyschemau.2c00029",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Fabrication of nanohybrids toward improving therapeutic potential of a NIR photo-sensitizer: An optical spectroscopic and computational study",
@@ -217,7 +286,9 @@
       "journal": "J. Photochem. Photobiol. A 424, 113610 (2022)",
       "url": "https://doi.org/10.1016/j.jphotochem.2021.113610",
       "year": 2022,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Sensitization of nontoxic MOF for their potential drug delivery application against microbial infection",
@@ -225,7 +296,9 @@
       "journal": "Inorg. Chim. Acta 523, 120381 (2021)",
       "url": "https://doi.org/10.1016/j.ica.2021.120381",
       "year": 2021,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Polyethylene Glycol-Mediated Fusion of Extracellular Vesicles with Cationic Liposomes for the Design of Hybrid Delivery Systems",
@@ -233,7 +306,9 @@
       "journal": "ACS Appl. Bio Mater. 4, 8259–8266 (2021)",
       "url": "https://doi.org/10.1021/acsabm.1c01023",
       "year": 2021,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Combating Essential Metal Toxicity: Key Information from Optical Spectroscopy",
@@ -241,7 +316,9 @@
       "journal": "ACS Omega 5, 15666 (2020)",
       "url": "https://doi.org/10.1021/acsomega.0c01908",
       "year": 2020,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Nano MOFs as targeted drug delivery agents to combat antibiotic resistant bacterial infections",
@@ -249,7 +326,9 @@
       "journal": "R. Soc. Open Sci. 7, 200959 (2020)",
       "url": "https://doi.org/10.1098/rsos.200959",
       "year": 2020,
-      "source": "CV"
+      "source": "Google Scholar",
+      "type": "journal-article",
+      "sourceUrl": "https://scholar.google.com/citations?user=ZXtrdcAAAAAJ"
     },
     {
       "title": "Wide bandgap semiconductor based novel nanohybrid for potential antibacterial activity: Ultrafast Spectroscopy and Computational Studies",
@@ -257,7 +336,9 @@
       "journal": "RSC Adv. 10, 38890 (2020)",
       "url": "https://doi.org/10.1039/d0ra07274d",
       "year": 2020,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     },
     {
       "title": "Development of a Magnetic Nanohybrid for Multifunctional Application: From Immobile Photocatalysis to Efficient Photoelectrochemical Water Splitting: A Combined Experimental and Computational Study",
@@ -265,7 +346,18 @@
       "journal": "J. Photochem. Photobiol. A 397, 112575 (2020)",
       "url": "https://doi.org/10.1016/j.jphotochem.2020.112575",
       "year": 2020,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
+    },
+    {
+      "title": "An Optical Scattering Based Cost-Effective Approach Towards Quantitative Assessment Of Turbidity And Particle Size Estimation In Drinking Water Using Image Analysis",
+      "authors": "S. Singh, A. Halder, A. Banerjee, M. N. Hasan, A. Bera, O. Sinha, S. K. Ghosh, et al.",
+      "journal": "J. Env. Sci., Eng. 62 (1), 891–899 (2020)",
+      "year": 2020,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZXtrdcAAAAAJ&citation_for_view=ZXtrdcAAAAAJ:2osOgNQ5qMEC",
+      "type": "journal-article",
+      "source": "Google Scholar"
     },
     {
       "title": "Enhanced Water Stability and Photoresponsivity in Metal-Organic Framework (MOF): A Potential Tool to Combat Drug-resistant Bacteria",
@@ -273,7 +365,9 @@
       "journal": "Sci. Rep. 9, 19372 (2019)",
       "url": "https://doi.org/10.1038/s41598-019-53900-5",
       "year": 2019,
-      "source": "CV"
+      "source": "ORCID",
+      "type": "journal-article",
+      "sourceUrl": "https://orcid.org/0000-0001-7826-5613"
     }
   ]
 }
