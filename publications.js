@@ -1,0 +1,10 @@
+(function(root){
+  const ORCID='0000-0001-7826-5613';
+  const plain=s=>String(s||'').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
+  const titleKey=s=>plain(s).normalize('NFKD').toLowerCase().replace(/[^a-z0-9]/g,'');
+  const doiKey=s=>{const m=String(s||'').match(/10\.\d{4,9}\/[^\s?#]+/i);return m?decodeURIComponent(m[0]).toLowerCase().replace(/[.,;]+$/,''):'';};
+  function merge(base,extra){const result=base.map(r=>({...r})),dois=new Set(result.map(r=>doiKey(r.doi||r.url)).filter(Boolean)),titles=new Set(result.map(r=>titleKey(r.title)));for(const r of extra){const doi=doiKey(r.doi||r.url),title=titleKey(r.title);if(!title||!r.year||titles.has(title)||(doi&&dois.has(doi)))continue;result.push(r);titles.add(title);if(doi)dois.add(doi);}return result.sort((a,b)=>b.year-a.year);}
+  function fromOrcid(data){if(!Array.isArray(data.group))throw Error('Invalid ORCID response');return data.group.flatMap(g=>{const w=g['work-summary']?.find(x=>x.type==='journal-article');if(!w)return [];const doi=(w['external-ids']?.['external-id']||[]).find(x=>x['external-id-type']==='doi'&&x['external-id-relationship']==='self')?.['external-id-value'];return [{title:plain(w.title?.title?.value),year:Number(w['publication-date']?.year?.value),journal:plain(w['journal-title']?.value)||'Journal article',authors:'Author details on the publication page',url:doi?'https://doi.org/'+doi:'https://orcid.org/'+ORCID,doi,source:'ORCID'}];});}
+  function fromCrossref(data){if(!Array.isArray(data.message?.items))throw Error('Invalid Crossref response');return data.message.items.filter(w=>w.type==='journal-article'&&w.author?.some(a=>a.ORCID?.endsWith('/'+ORCID))).map(w=>({title:plain(w.title?.[0]),year:Number((w.published||w.issued)?.['date-parts']?.[0]?.[0]),journal:plain(w['container-title']?.[0])||'Journal article',authors:(w.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(' ')).join(', '),doi:w.DOI,url:'https://doi.org/'+w.DOI,source:'Crossref'}));}
+  const api={merge,fromOrcid,fromCrossref,titleKey,doiKey};if(typeof module!=='undefined')module.exports=api;else root.PublicationTools=api;
+})(typeof window!=='undefined'?window:globalThis);
