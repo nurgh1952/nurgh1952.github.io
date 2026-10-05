@@ -71,6 +71,9 @@ fetch('metrics.json',{cache:'no-cache'})
       }
     }
     const updated=document.getElementById('metrics-updated');
-    if(updated) updated.textContent='Google Scholar · Checked '+m.checkedAt;
+    if(updated && /^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)){
+      const date=new Date(m.checkedAt+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
+      updated.textContent='Google Scholar · Checked '+date;
+    }
   })
   .catch(()=>{});

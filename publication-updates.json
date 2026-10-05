@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-09-19",
+  "checkedAt": "2026-10-05",
   "records": [
     {
       "title": "Towards a MAgnetic Multiscale MOdelling Suite (MaMMoS)",
-      "authors": "H. Fangohr, S. J. R. Holt, M. Lang, S. Pathak, A. Petrocchi, M. Adams, et al.",
+      "authors": "H. Fangohr, S. J. R. Holt, M. Lang, S. Pathak, A. Petrocchi, M. Adams, W. Hortschitz, S. Pile, A. Vishina, M. N. Hasan, et al.",
       "journal": "IEEE Transactions on Magnetics (2026)",
       "year": 2026,
       "url": "https://doi.org/10.1109/TMAG.2026.3689962",
@@ -12,7 +12,7 @@
     },
     {
       "title": "A Community-Developed Domain Ontology for Magnetic Materials",
-      "authors": "W. Hortschitz, S. Pile, C. Fillies, H. Oezelt, A. Kovacs, H. Fangohr, S. J. R. Holt, et al.",
+      "authors": "W. Hortschitz, S. Pile, C. Fillies, H. Oezelt, A. Kovacs, H. Fangohr, S. J. R. Holt, M. Lang, A. Petrocchi, S. Pathak, M. P. Adams, J. Winkler, T. G. Woodcock, W. Rigaut, P. Le Berre, N. M. Dempsey, A. Vishina, M. N. Hasan, G. A. Marchant, H. C. Herper, & T. Schrefl",
       "journal": "arXiv:2609.11464 (2026)",
       "year": 2026,
       "url": "https://arxiv.org/abs/2609.11464",
@@ -27,6 +27,17 @@
       "url": "https://arxiv.org/abs/2607.23625",
       "type": "arxiv-preprint",
       "source": "Google Scholar"
+    },
+    {
+      "title": "Spin Reorientation Driven Renormalization of Spin–Phonon Coupling in Fe₄GeTe₂",
+      "authors": "R. Pal, M. N. Hasan, D. Das, C. Nayak, M. Deka, N. Salehi, M. Pereiro, S. Mondal, A. Misra, A. Singha, P. Mandal, D. Karmakar, & A. N. Pal",
+      "journal": "ACS Nano 20(36), 24621–24631 (2026)",
+      "url": "https://doi.org/10.1021/acsnano.5c22274",
+      "year": 2026,
+      "source": "ACS Publications",
+      "type": "journal-article",
+      "sourceUrl": "https://pubs.acs.org/ancac3/article/20/36/24621/5383050/Spin-Reorientation-Driven-Renormalization-of-Spin",
+      "doi": "10.1021/acsnano.5c22274"
     },
     {
       "title": "Deciphering Interfacial Dzyaloshinskii–Moriya Interaction in Transition‑Metal Dichalcogenide/Permalloy Heterostructures by Brillouin Light Scattering and First‑Principles Calculations",
