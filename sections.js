@@ -64,7 +64,7 @@ navigateSection();
 fetch('metrics.json',{cache:'no-cache'})
   .then(r=>{if(!r.ok)throw Error();return r.json();})
   .then(m=>{
-    const fields=[['publications','publications'],['citations','citations'],['hindex','hIndex'],['i10','i10Index']];
+    const fields=[['citations','citations'],['hindex','hIndex'],['i10','i10Index']];
     if(!m||!fields.every(([,key])=>Number.isInteger(m[key])&&m[key]>=0))return;
     const date=PublicationTools.formatCheckedDate(m.checkedAt);
     if(date==='Date unavailable')return;
