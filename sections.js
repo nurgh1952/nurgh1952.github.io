@@ -64,16 +64,15 @@ navigateSection();
 fetch('metrics.json',{cache:'no-cache'})
   .then(r=>{if(!r.ok)throw Error();return r.json();})
   .then(m=>{
-    for(const [id,key] of [['publications','publications'],['citations','citations'],['hindex','hIndex'],['i10','i10Index']]){
-      if(Number.isInteger(m[key])&&m[key]>=0){
-        const el=document.getElementById('metric-'+id);
-        if(el) el.textContent=m[key].toLocaleString();
-      }
+    const fields=[['publications','publications'],['citations','citations'],['hindex','hIndex'],['i10','i10Index']];
+    if(!m||!fields.every(([,key])=>Number.isInteger(m[key])&&m[key]>=0))return;
+    const date=PublicationTools.formatCheckedDate(m.checkedAt);
+    if(date==='Date unavailable')return;
+    for(const [id,key] of fields){
+      const el=document.getElementById('metric-'+id);
+      if(el)el.textContent=m[key].toLocaleString();
     }
     const updated=document.getElementById('metrics-updated');
-    if(updated && /^\d{4}-\d{2}-\d{2}$/.test(m.checkedAt)){
-      const date=new Date(m.checkedAt+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
-      updated.textContent='Google Scholar · Checked '+date;
-    }
+    if(updated)updated.textContent='Google Scholar · Checked '+date;
   })
   .catch(()=>{});
