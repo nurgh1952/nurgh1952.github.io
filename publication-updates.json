@@ -1,6 +1,18 @@
 {
-  "checkedAt": "2026-10-06",
+  "checkedAt": "2026-10-22",
   "records": [
+    {
+      "title": "Transition-Metal-Induced Uniaxial Anisotropy in YFe₃",
+      "authors": "M. Nur Hasan, B. L. Fertig, S. Pile, R. M. Vieira, A. Vishina, A. Kovacs, G. Rieger, S. Denneler, S. J. R. Holt, M. Lang, S. Pathak, A. Petrocchi, H. Fangohr, T. G. Woodcock, T. Schrefl, & H. C. Herper",
+      "journal": "arXiv:2610.18303 (2026)",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18303",
+      "type": "arxiv-preprint",
+      "source": "arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2610.18303",
+      "submittedAt": "2026-10-13",
+      "checkedAt": "2026-10-22"
+    },
     {
       "title": "Towards a MAgnetic Multiscale MOdelling Suite (MaMMoS)",
       "authors": "H. Fangohr, S. J. R. Holt, M. Lang, S. Pathak, A. Petrocchi, M. Adams, W. Hortschitz, S. Pile, A. Vishina, M. N. Hasan, et al.",

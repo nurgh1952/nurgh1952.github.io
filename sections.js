@@ -2,7 +2,7 @@
 const sections=[...document.querySelector('main').children].filter(e=>e.tagName==='SECTION'||e.classList.contains('metrics'));
 
 for(const section of sections){
-  if(section.classList.contains('hero')) section.dataset.page='home';
+  if(section.classList.contains('hero')||section.id==='news') section.dataset.page='home';
   else if(section.classList.contains('metrics')) section.dataset.page='home';
   else {
     if(!section.id){

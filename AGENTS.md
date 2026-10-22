@@ -11,3 +11,7 @@ For every publication, metrics, news or research-highlight update:
 - Preserve the design. Check desktop and mobile, filters/search, totals, image/caption/link pairing, and the fallback when JSON loading fails. Save a preview and document sources, mismatches and exact changes.
 - When changing JavaScript or stylesheets, refresh the corresponding asset-version references in index.html. Verify a returning visitor can reload without mixing old scripts with a new embedded bibliography.
 - Report separately what is prepared or committed locally and what is actually deployed. Never claim a live update from a local commit alone.
+
+## Author identity exclusions confirmed 22 October 2026
+
+Nur confirmed that neither DOI `10.1039/d6dt01729k` (Ni(II) host–guest modelling) nor DOI `10.1021/acs.jpca.6c01569` (Co(II) pesticide recognition) is his paper. Do not add either from Google Scholar: the publisher's Md Nur Hasan has ORCID `0009-0009-7827-7353` and a Bhagalpur chemistry affiliation. Nur's ORCID is `0000-0001-7826-5613`. Scholar's raw profile count and metrics may include these unrelated records; never equate that count to this curated bibliography or silently subtract estimated citations.
